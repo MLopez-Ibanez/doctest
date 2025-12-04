@@ -1,0 +1,11 @@
+doctest-package         Write testthat tests for your examples, using
+                        roxygen tags
+doctest-tag             Start a doctest
+doctestExample-tag      Add an example from a file
+dt_roclet               Create the doctest roclet
+expect-tag              Create an expectation
+expectRaw-tag           Create an expectation as-is
+omit-tag                Exclude example code from a test
+snap-tag                Create a snapshot test
+testRaw-tag             Add a line of code to the test
+test_doctests           Test doctests in a package
