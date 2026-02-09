@@ -1,27 +1,31 @@
-## Version 0.4.0 submission
+Dear CRAN maintainers,
 
-This is a minor release that improves the quality of generated tests.
+I am submitting version 0.4.0 of the doctest package.
 
-## Test environments
+### What's new in this version
 
-Tested using GitHub Actions with r-lib/actions@v2:
+This release improves the quality of generated tests by not producing "Source line" information, which avoids changes irrelevant to examples from modifying the tests.
 
-* macOS-latest (release)
-* Windows-latest (release)
-* Ubuntu-latest (devel)
-* Ubuntu-latest (release)
-* Ubuntu-latest (oldrel-1)
+### Testing
 
-## R CMD check results
+The package has been thoroughly tested on multiple platforms using GitHub Actions with r-lib/actions@v2:
 
-0 errors ✓ | 0 warnings ✓ | 0 notes ✓
+- **macOS-latest** (R release)
+- **Windows-latest** (R release)
+- **Ubuntu-latest** (R devel)
+- **Ubuntu-latest** (R release)
+- **Ubuntu-latest** (R oldrel-1)
 
-All checks performed using:
-* r-lib/actions/setup-r@v2
-* r-lib/actions/setup-r-dependencies@v2
-* r-lib/actions/check-r-package@v2
+All checks pass with **0 errors, 0 warnings, and 0 notes**.
 
-## Downstream dependencies
+### Additional Information
 
-No reverse dependencies were found on CRAN at the time of submission.
+- Package documentation: https://hughjonesd.github.io/doctest/
+- Bug reports: https://github.com/hughjonesd/doctest/issues
+- License: MIT + file LICENSE
 
+Thank you for your time and consideration in reviewing this submission.
+
+Best regards,
+
+David Hugh-Jones
