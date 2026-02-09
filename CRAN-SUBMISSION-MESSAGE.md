@@ -30,23 +30,6 @@ The package has been thoroughly tested on multiple platforms using GitHub Action
 
 All checks pass with **0 errors, 0 warnings, and 0 notes**.
 
-The continuous integration setup uses:
-- `r-lib/actions/setup-r@v2` for R installation
-- `r-lib/actions/setup-r-dependencies@v2` for dependency management
-- `r-lib/actions/check-r-package@v2` for comprehensive package checking with CRAN standards
-
-GitHub Actions results are available at: https://github.com/MLopez-Ibanez/doctest/actions
-
-### Compatibility
-
-- This release maintains backward compatibility with previous versions
-- No breaking changes introduced
-- All existing functionality preserved
-
-### Reverse Dependencies
-
-No reverse dependencies were found on CRAN at the time of this submission.
-
 ### Additional Information
 
 - Package documentation: https://hughjonesd.github.io/doctest/
@@ -57,16 +40,3 @@ Thank you for your time and consideration in reviewing this submission.
 
 Best regards,
 David Hugh-Jones
-
----
-
-## Post-submission checklist
-
-After CRAN acceptance:
-
-- [ ] Create GitHub release with tag v0.4.0
-- [ ] Verify pkgdown website updates automatically
-- [ ] Monitor CRAN check results page
-- [ ] Watch for user feedback and issues
-- [ ] Update development version to 0.4.0.9000 in DESCRIPTION
-- [ ] Add "# doctest (development version)" section to NEWS.md
