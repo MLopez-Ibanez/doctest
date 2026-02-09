@@ -1,17 +1,27 @@
+## Version 0.4.0 submission
 
-Submitting to fix compatibility with roxygen2 7.3.0.
+This is a minor release that improves the quality of generated tests.
 
+## Test environments
+
+Tested using GitHub Actions with r-lib/actions@v2:
+
+* macOS-latest (release)
+* Windows-latest (release)
+* Ubuntu-latest (devel)
+* Ubuntu-latest (release)
+* Ubuntu-latest (oldrel-1)
 
 ## R CMD check results
 
-Platforms
+0 errors ✓ | 0 warnings ✓ | 0 notes ✓
 
-* Mac (local): R 4.3.2
-* Mac (mac-builder): r-release
-* Windows (win-builder): r-devel and r-release
-* Mac, Windows, Linux (github actions): r-devel, r-release, r-oldrel
+All checks performed using:
+* r-lib/actions/setup-r@v2
+* r-lib/actions/setup-r-dependencies@v2
+* r-lib/actions/check-r-package@v2
 
-One NOTE about an unimported function. Fixed.
+## Downstream dependencies
 
-One reverse dependency checked successfully.
+No reverse dependencies were found on CRAN at the time of submission.
 
