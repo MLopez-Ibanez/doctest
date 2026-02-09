@@ -21,3 +21,4 @@
 ^cran-release\.sh$
 ^CRAN-SUBMISSION-MESSAGE\.md$
 ^RELEASE-NOTES-.*\.md$
+^SUMMARY\.md$
